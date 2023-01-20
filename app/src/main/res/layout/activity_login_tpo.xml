@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginTPO"
+    android:background="@color/black"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="TPO Login"
+        android:textColor="@color/gold"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/logintponame"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/gold"
+        android:textSize="40px"
+        android:textColorHint="@color/gold"
+        android:hint="Enter Name"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/logintpopassword"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gold"
+        android:textSize="40px"
+        android:textColorHint="@color/gold"
+        android:password="true"
+        android:hint="Enter Password"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/logintposubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gold"
+        android:gravity="center"
+        android:textSize="40px"
+        android:text="Log In" />
+
+</LinearLayout>

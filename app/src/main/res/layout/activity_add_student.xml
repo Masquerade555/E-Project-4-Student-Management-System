@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AddStudent"
+    android:gravity="center_horizontal" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="Add New Student"
+        android:textColor="@color/gold"
+        android:textSize="25dp"/>
+
+
+    <EditText
+        android:id="@+id/addstudentname"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/gold"
+        android:textSize="40px"
+        android:textColorHint="@color/gold"
+        android:hint="Enter New Name"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/addstudentbranch"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gold"
+        android:textSize="40px"
+        android:textColorHint="@color/gold"
+        android:hint="Enter Branch"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/addstudentpercentage"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gold"
+        android:textSize="40px"
+        android:textColorHint="@color/gold"
+        android:numeric="decimal"
+        android:hint="Enter Percentage"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/addstudentsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gold"
+        android:gravity="center"
+        android:textSize="40px"
+        android:text="Submit" />
+
+
+
+
+</LinearLayout>
